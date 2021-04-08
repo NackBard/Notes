@@ -55,5 +55,5 @@ class DataViewModel(private val listener: ResultCallBack):ViewModel() {
         } else {
             listener.onError("Ошибка")
         }
-
+    }
 }

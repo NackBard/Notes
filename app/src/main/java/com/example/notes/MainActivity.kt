@@ -8,6 +8,7 @@ import android.widget.ListView
 import android.widget.Toast
 import com.example.notes.adapter.ListViewAdapter
 import com.example.notes.model.DataBaseHelper
+import kotlinx.android.synthetic.main.toolbar.*
 
 class MainActivity : AppCompatActivity() {
     var adapter: ListViewAdapter? = null

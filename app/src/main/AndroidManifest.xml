@@ -9,7 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Notes">
-        <activity android:name=".EditActivity"></activity>
+
+        <service
+            android:name="MyService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <receiver android:name=".ListViewAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/list_view_app_widget_info" />
+        </receiver>
+
+        <activity android:name=".AddNote" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

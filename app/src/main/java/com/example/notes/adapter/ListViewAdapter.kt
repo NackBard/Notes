@@ -10,7 +10,8 @@ import android.widget.TextView
 import com.example.notes.R
 import com.example.notes.model.Data
 
-class ListViewAdapter(private var activity: Context, private var items: ArrayList<Data> ): BaseAdapter {
+class ListViewAdapter(private var activity: Context, private var items: ArrayList<Data> ):
+    BaseAdapter() {
     private class ViewHolder(row: View?) {
         var txtName: TextView? = null
 
