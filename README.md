@@ -73,7 +73,7 @@ app/src/main/java/com/example/notes/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Notes.git
+   git clone https://github.com/NackBard/Notes.git
    ```
 
 2. Open in Android Studio and run on a device or emulator.
