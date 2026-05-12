@@ -2,10 +2,6 @@
 
 An Android notes app with a home screen widget, built with **Kotlin**. Uses the MVVM architecture pattern with Data Binding, a local SQLite database, and a `RemoteViewsService`-powered list widget that displays pinned notes directly on the home screen.
 
-## 📸 Screenshots
-
-> _Add screenshots of the app and widget here_
-
 ## ✨ Features
 
 - 📋 **Notes list** — view all saved notes in a scrollable ListView
@@ -79,19 +75,6 @@ app/src/main/java/com/example/notes/
 2. Open in Android Studio and run on a device or emulator.
 
 3. To use the widget: long-press the home screen → **Widgets** → find **Notes** → drag to home screen. Only notes marked as **pinned** (checkbox checked) will appear in the widget.
-
-## 🔮 Roadmap
-
-- [ ] Migrate SQLite to **Room** (type-safe ORM)
-- [ ] Add note deletion with swipe gesture
-- [ ] Migrate ListView to **RecyclerView**
-- [ ] Replace `ViewModelProviders` (deprecated) with `ViewModelProvider`
-- [ ] Add note editing
-- [ ] Search / filter notes
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
